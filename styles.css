@@ -19,7 +19,7 @@ header {
     /* margin: 0 auto;
     max-width: 1600px; */
     height: 670px;
-    background: url(/images/header_backgr.jpg) no-repeat;
+    background: url(images/header_backgr.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -547,7 +547,7 @@ header {
 
 #ppl-say {
     height: 500px;
-    background: url(/images/works_backgr.jpg) no-repeat;
+    background: url(images/works_backgr.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -754,7 +754,7 @@ textarea {
 
 footer {
     height: 400px;
-    background: url(/images/footer_backgr.jpg) no-repeat;
+    background: url(images/footer_backgr.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
