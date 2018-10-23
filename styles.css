@@ -1207,7 +1207,8 @@ button.learn-more:hover, button.hiring:hover,
         /* People Say Section */
 
     #ppl-say {
-        height: 600px; 
+        height: 600px;
+        padding: 10px 0; 
     }
 
     #slider ul li:nth-child(2), #slider ul li:nth-child(6) {
@@ -1347,6 +1348,14 @@ button.learn-more:hover, button.hiring:hover,
 
     .welcome h2 {
         margin-top: 50px;
+    }
+
+    #ppl-say {
+        height: 670px;
+    }
+
+    .logos-left, .logos-right {
+        transform: scale(0.7);
     }
 
 }
