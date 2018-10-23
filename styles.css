@@ -15,9 +15,8 @@ html, body {
 }
 
     /* Header */
+
 header {
-    /* margin: 0 auto;
-    max-width: 1600px; */
     height: 670px;
     background: url(images/header_backgr.jpg) no-repeat;
     background-size: cover;
@@ -1285,4 +1284,69 @@ button.learn-more:hover, button.hiring:hover,
         margin-top: 100px;
     }
   
+}
+
+@media screen and (max-width: 760px) {
+
+    /* Navigation */
+
+    header {
+        height: auto;
+        padding: 20px 0;
+        background: url(images/header_backgr.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+    }
+
+        /* navbar */
+
+    .burger-nav {
+        height: 38px;
+        background: url(images/burger-logo.png) no-repeat 98%;
+        background-size: contain;
+        cursor: pointer;
+        -webkit-filter: invert(1);
+        filter: invert(1);
+    }
+
+    #nav-bar ul {
+        height: 0;
+        overflow: hidden;
+        float: none;
+        text-align: center;
+    }
+
+    #nav-bar ul.open {
+        height: auto;
+    }
+
+    #nav-bar ul li {
+        display: block;
+        float: none;
+        margin: 0 auto;
+        margin-right: 0;
+        margin-top: 10px;
+    }
+
+    #nav-bar ul li::after { 
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        content: "";
+        border-bottom: 1px solid #eeeeee;
+        padding-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #nav-bar .logo {
+        margin-top: 0px;
+        float: none;
+        text-align: center;
+    }
+
+    .welcome h2 {
+        margin-top: 50px;
+    }
+
 }
