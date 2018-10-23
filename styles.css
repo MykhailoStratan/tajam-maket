@@ -131,6 +131,10 @@ header {
     background: rgba(0, 0, 0, 0);
 }
 
+.slide-active {
+    background: #00eede;
+}
+
     /* Story section */
 
 #story {
@@ -880,7 +884,6 @@ footer {
     
 }
 
-
 .bottom-footer .rights {
     float: right;
 }
@@ -892,4 +895,255 @@ footer {
     margin: 0;
     margin-top: 50px;
     margin-right: 25px;
+}
+
+
+    /* Some hover effects */
+
+
+    
+#nav-bar ul li a:hover {
+    color: #00eede;
+}
+
+.slide {
+    cursor: pointer;
+}
+
+.play-icon:hover {
+    cursor: pointer;
+}
+
+button.learn-more:hover, button.hiring:hover,
+#works button.load-more:hover, input.submit-button:hover  {
+    background: white;
+    color: black;
+    border-color: black;
+    transition: 0.7s, 0.9s;
+    cursor: pointer;
+}
+
+#submit-newsletter:hover {
+    opacity: 0.9;
+}
+
+.social:hover {
+    -webkit-filter: none;
+    filter: none;
+    cursor: pointer;
+}
+
+.member:hover {
+    color: black;
+    background-color: white;
+}
+
+#slider ul li img {
+    cursor: pointer;
+}
+
+.left-list ul li a:hover {
+    color: #00eede;
+}
+
+    /* Media queries */
+
+@media screen and (max-width: 1000px) {
+
+    .container {
+        width: 90%;
+    }
+
+    .container-works {
+        width: 90%;
+    }
+
+    /*slider*/
+
+    .slider-item {
+        max-width: 90%;;
+    }
+
+    #slider ul {
+        max-width: 90%;
+    }
+
+    /* footer info and buttons */
+
+    .footer-top ul li {
+        width: 32%;
+        height: 160px;
+        margin-right: 1%;
+    }
+
+    .footer-top ul li:last-child {
+        position: relative;
+        top: 75px;
+    }
+
+    #newsletter {
+        width: 96%;
+    }
+    
+    #submit-newsletter {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .left-list ul li {
+        margin-top: 80px;
+    }
+    
+    .rights-p {
+        margin-top: 80px;
+
+    }
+}
+
+@media screen and (max-width: 950px) {
+
+    /* story section */
+
+    #story {
+        height: auto;
+    }
+    
+    .big-logo {
+        float: none;
+        margin: 25px auto;
+        transform: scale(0.8);
+    }
+    
+    .story-describe {
+        width: 70%;
+        float: none;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    .story-describe h3 {
+        margin-top: 10px;
+    }
+    
+    .story-describe .learn-more {
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    /* works section, change grid-system */
+
+    #works .grid-container {
+        grid-template-columns: auto auto auto;
+    }
+
+    #works .item12, #works .item11, #works .item10, #works .item9,
+    #works .item8, #works .item7 {
+        display: none;
+    }
+
+    /* change size of  top footer background and view of list elements */
+
+    footer {
+        height: 700px;
+        background: url(images/footer_backgr.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    footer .logo img {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    
+    .footer-top h5 {
+        margin:0;
+        margin-bottom: 10px;
+        margin-top: 30px;
+    }
+    
+    .footer-top ul {
+        margin: 0 auto;
+        padding: 0;
+        padding-top: 10px;
+    }
+    
+    .footer-top ul li {
+        text-align: center;
+        display: block;
+        width: 100%;
+        height: auto;
+        margin-right: 0;
+    }
+
+    .footer-top ul li p {
+        margin: 0;
+    }
+    
+    .footer-top ul li:nth-child(1-3) {
+        top: 0px;
+    }
+    
+    .footer-top ul li:nth-child(3) {
+        top: 0px;
+    }
+    
+    .footer-top ul li:nth-child(2) h5 {
+        top: 0px;
+    }
+    
+    .footer-top ul li:nth-child(3) h5 {
+        top: 0px;
+    }
+    
+    .footer-top ul li:last-child {
+        margin-right: 0;
+    }
+    
+    #newsletter {
+        width: 45%;
+    }
+
+    #submit-newsletter {
+        top: 2px;
+        width: 70px;
+        margin: 0;
+    }
+
+    /* bottom footer media changes */
+
+    .left-list {
+        float: none;
+        display: block;
+        width: 100%;
+    }
+    
+    .left-list ul {
+        width: 100%;
+        height: 60px;
+        text-align: center;
+        margin-top: 120px;
+    }
+    
+    .left-list ul li {
+        list-style: none;
+        float: none;
+        display: inline;
+        margin-right: 2%;
+    }
+
+    .left-list ul li:last-child {
+        margin-right: 0px;
+    }
+    
+    .bottom-footer .rights {
+        float: none;
+        text-align: center;
+    }
+    
+    .rights-p {
+        margin-top: 0px;
+        margin-right: 25px;
+    }
+    
 }
